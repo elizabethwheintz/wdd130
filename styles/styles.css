@@ -56,14 +56,14 @@ aside img {
 
 }
 
-img {
+main img {
     width: 200px;
     height: auto;
     
 }
 
 p {
-    padding: 1rem;
+    padding: 0;
 }
 
 
