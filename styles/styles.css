@@ -24,6 +24,7 @@ main {
 h1 {
     margin: 10px;
     text-align: center;
+    color: #000;
     
 }
 
@@ -38,14 +39,28 @@ aside {
     box-shadow: 0 0 1cap #333;
 }
 
+nav {
+    padding: 10px;
+    background-color:lightblue;
+}
+
+nav a {
+    color: #000;
+    padding: 10px;
+
+}
+
 aside img {
     width: 200px;
     height: auto;
+
 }
 
 main img {
     width: 150px;
     height: auto;
+    border: 0;
+    padding: 0;
     box-shadow: 0 0 10px #333;
 }
 
