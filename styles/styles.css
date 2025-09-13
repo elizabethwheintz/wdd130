@@ -54,12 +54,11 @@ aside img {
 }
 
 main img {
-
-    height: auto;
     border: 1px solid gray;
     padding: 2px;
     box-shadow: 0 0 10px steelblue; 
-    width: 200px;  
+    width: 200px;
+    height: auto;  
 }
 
 p {
