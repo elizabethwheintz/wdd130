@@ -48,17 +48,17 @@ nav a {
     display: block;
 }
 
-aside img {
-    width: 200px;
-    height: auto;
-}
-
 main img {
     width:auto;
     height: auto;
     border: 1px solid gray;
     padding: 2px;
     box-shadow: 0 0 10px steelblue;   
+}
+
+aside img {
+    width: 200px;
+    height: auto;
 }
 
 p {
