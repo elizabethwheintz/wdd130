@@ -1,9 +1,11 @@
 * {
     margin: 0;
-    padding: 0;    
+    padding: 0;
+    box-sizing: border-box;    
 }
 
 body{
+    font-size: 16px;
     font-family: Verdana, Tahoma, sans-serif;
     text-align: center;
 }
@@ -24,7 +26,9 @@ h1 {
     margin: 10px;
     text-align: center;
     color: #000; 
+    padding: 0.5rem;
 }
+
 
 aside {
     width:20rem;
@@ -35,6 +39,12 @@ aside {
     color: #333;
     text-align: center;
     box-shadow: 0 0 1cap #333;
+}
+
+aside h2 {
+    position: relative;
+    top: 72px;
+    left: 1px;
 }
 
 nav {
@@ -49,11 +59,13 @@ nav a {
 }
 
 main img {
-    width:auto;
+    width:200px;
     height: auto;
     border: 1px solid gray;
     padding: 2px;
-    box-shadow: 0 0 10px steelblue;   
+    box-shadow: 0 0 10px steelblue;
+    float:right;
+    margin: 0 0 1rem 1rem;   
 }
 
 aside img {
@@ -62,7 +74,7 @@ aside img {
 }
 
 p {
-    padding: 1rem;
+    padding: 2rem;
 }
 
 
@@ -73,4 +85,17 @@ footer {
     background-color: #eee;
 }
 
+/* class selectors*/
+.box {
+    margin: 2rem;
+    border: 1px solid rgb(0 0 0 / 0.1);
+    padding: 1rem;
+    background-color: #eee;
+    color: #000;
+}
 
+.indent {
+    text-align: left;
+    padding-left: 2rem;
+    margin: 1px
+}
