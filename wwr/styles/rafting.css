@@ -47,6 +47,11 @@ nav, p, section, article {
 .hero {
     position:relative;
 }
+
+.hero div h1,article {
+    position: absolute;
+}
+
 .hero img {
 
     display:block;
