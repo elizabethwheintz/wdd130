@@ -80,10 +80,11 @@ h1 {
 article {
     position: absolute;
     top: 400px;
+    right: 1px;
     width: 100%;
     padding: 0;
     text-align: center;
-    opacity: .9; 
+    opacity: .7; 
     background-color: #264653;
     padding: 1rem;
 
@@ -103,6 +104,8 @@ h2 {
 
 
 footer {
+    position: relative;
+    width: 100%;
     padding: 0;
     margin: 0;
     text-align: center;
