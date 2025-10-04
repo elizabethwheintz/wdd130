@@ -248,7 +248,7 @@ h2 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    padding: 4px;
+    padding: 10px;
     background-color: var(--accent1-color);
     
     
@@ -293,11 +293,21 @@ footer {
 }
 
 .flex-item0 {
+    display: block;
     padding: 1px;
     margin: 10px;
+    
 }
 
-
+h6 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    justify-content: space-around;
+    position: relative;
+    left: 1rem;
+    background-color: var(--accent1-color);
+    padding: .5rem;
+}
 
 
 
