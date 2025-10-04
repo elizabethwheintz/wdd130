@@ -29,7 +29,7 @@ h1, h2 {
     
 }
 
-nav, p, section, article {
+p, section, article {
     margin: 16px;
     padding: 8px;
 }
@@ -76,7 +76,7 @@ h1 {
 }
 
 .contact-us {
-    display: block;
+    display: grid;
     text-align: center;
     padding: 0;
     
@@ -89,7 +89,7 @@ form {
     display: grid;
     grid-template-rows: 50px 50px 1fr 100px ;
     justify-content: space-around;
-    width: 400px;
+    width: 350px;
     position: relative;
     left: 25rem;
     text-align: right;
@@ -99,7 +99,6 @@ form {
 textarea {
     position: relative;
     top: 25px;
-    left: 1rem;
     width: 245px;
     margin: 1rem;
     
@@ -107,7 +106,7 @@ textarea {
 
 .map {
     position: relative;
-    bottom: 29rem;
+    bottom: 27rem;
 }
 
 
@@ -124,13 +123,21 @@ textarea {
 .optiona, .optionb, .optionc {
     position: relative;
     bottom: 15px;
+    right: 5rem;
     
 }
 
-.word1 {
+ .word2, .word3 {
     position: relative;
-    right: 40px;
+    right: 6rem;
 }
+
+.word1{
+    position: relative;
+    right: 8rem;
+
+}
+
 
 
 option {
@@ -150,7 +157,7 @@ option {
 
 .message {
     position: relative;
-    right: 250px;
+    right: 275px;
     display: block;
     block-size: 20px;
     top: 4.5rem;
@@ -159,8 +166,9 @@ option {
 }
 
 
+
 .boxer {
-    height: 35rem
+    height: 30rem
 }
 
 .form-item {
@@ -276,6 +284,11 @@ footer {
     flex-direction:row;
     align-items:center ;
     
+    
+}
+
+.flex-item {
+    justify-content: right;
     
 }
 
