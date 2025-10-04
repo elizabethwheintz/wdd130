@@ -32,6 +32,7 @@ input, textarea, select {
 
 button {
     background-color: navy;
+    padding: 1rem;
     color: #fff;
     margin: 0 auto;
     display: block;
