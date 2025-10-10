@@ -87,7 +87,7 @@ form {
     border: 1px solid rgb(0 0 0/10%);
     padding: 1.5rem;
     display: grid;
-    grid-template-rows: 50px 50px 1fr 100px ;
+    grid-template-rows: 50px 50px 1fr 100px 28px ;
     justify-content: space-around;
     width: 350px;
     position: relative;
@@ -98,17 +98,20 @@ form {
 
 textarea {
     position: relative;
-    top: 25px;
-    width: 245px;
-    margin: 1rem;
-    
+    top: 10px;
+    width: 22rem;
 }
 
 .map {
-    position: relative;
-    bottom: 27rem;
+    position: absolute;
+    bottom: 12rem;
 }
 
+
+.info1, .info2 {
+    width: 18.6rem;
+    block-size: 40%;
+}
 
 .choice {
     display: flex;
@@ -123,11 +126,16 @@ textarea {
 .optiona, .optionb, .optionc {
     position: relative;
     bottom: 15px;
-    right: 5rem;
+    right: 5.25rem;
     
 }
 
- .word2, .word3 {
+ .word2 {
+    position: relative;
+    right: 5rem;
+}
+
+.word3 {
     position: relative;
     right: 6rem;
 }
@@ -147,27 +155,22 @@ option {
 }
 
 .subscribe {
-    block-size: 50%;
+    block-size: 60%;
     padding: 1px;
     display: flex;
     flex-direction: row-reverse;
     
-    
 }
 
 .message {
-    position: relative;
-    right: 275px;
-    display: block;
-    block-size: 20px;
-    top: 4.5rem;
-    padding:2px ;
-
+    display: grid;
+    grid-template-columns: min-content;
 }
 
 .letter {
     position: relative;
-    height: 3rem;
+    height: 2.5rem;
+    block-size: 60%;
 }
 
 
@@ -305,8 +308,8 @@ section {
     grid-template-columns: 1fr 1fr 1fr ;
     justify-content: space-around;
     position: relative;
-    left: 1.5rem;
-    bottom: 1.7rem;
+    left: 1rem;
+    bottom: 3rem;
     padding: .5rem;
 }
 
