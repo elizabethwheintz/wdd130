@@ -196,16 +196,42 @@ option {
 
 }
 
+.home-bar {
+  
+  display: flex;
+  justify-content: flex-end; /* Pushes content to the right */
+  position: relative;
+  justify-content: space-evenly;
+  left: 300px;
+  height: 90px;
+  color: white;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+li {
+    display: list-item;
+    text-align: right;
+}
+
+nav {
+    display: flex;
+}
+
+
+
 .grid-item {
-    width:100px;
+    display: block;
+    width:100%;
     margin: 1.5rem;
     border: 1px solid rgb(0 0 0/20%);
     padding: 0.5rem;
     text-align: center;
     background-color: var(--accent2-color);
     font-style: var(--heading-font);
-    position: relative;
-    left:375px;
     
     
 }
@@ -263,7 +289,16 @@ h2 {
 
 .grid-pic{
     max-height: 100px;
+    max-width: 150px;
     position: relative;
+}
+
+.subtitle2 {
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    bottom: 1.5rem;
+    right: 1rem;
 }
 
 
@@ -303,7 +338,7 @@ footer {
     
 }
 
-section {
+.subtitle {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr ;
     justify-content: space-around;
