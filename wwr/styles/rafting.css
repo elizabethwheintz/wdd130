@@ -205,6 +205,9 @@ tbody>tr:nth-of-type(even) {
     margin: 0 auto;
 
 }
+.contact {
+    list-style: none;
+}
 
 .aside {
     position: relative;
