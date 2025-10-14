@@ -152,13 +152,15 @@ p, section, article {
 }
 
 .trips {
-    margin: 1px;
-    width: 10%;
+    padding: .2rem;
+    width: 26%;
     align-items: center;
     background-color:var(--accent2-color);
     list-style: none;
-    
     border: 2px solid var(--primary-color);
+    position: relative;
+    left: 35rem;
+    bottom: 2rem;
 }
 
 .summary {
