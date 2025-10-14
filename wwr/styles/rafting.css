@@ -34,6 +34,40 @@ p, section, article {
     padding: 8px;
 }
 
+.form1 {
+    display: grid;
+    grid-template-rows: 100px 1fr 350px 20px 50px 50px 30px;
+    
+
+}
+
+.call {
+    position: absolute;
+    display: block;
+    color: var(--primary-color);
+    background-color: var(--accent2-color);
+    border: 5px solid var(--primary-color);
+    padding: 15px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    top: 44rem;
+}
+
+.rowing {
+    width: 320px;
+    
+}
+
+.twice {
+    position: absolute;
+    display: block;
+    color: var(--primary-color);
+    background-color: var(--accent2-color);
+    border: 5px solid var(--primary-color);
+    padding: 15px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    top: 14rem;
+
+}
 
 .socialmedia a {
     text-decoration: none;
@@ -123,33 +157,30 @@ p, section, article {
     align-items: center;
     background-color:var(--accent2-color);
     list-style: none;
-    position: relative;
-    bottom: 17.5rem;
-    left: 48rem;
+    
     border: 2px solid var(--primary-color);
 }
 
 .summary {
-    position: relative;
-    bottom: 10rem;
+    
     display: block;
     background-color: var(--accent2-color);
     padding: 25px;
     margin: 12px;
 }
 
- .rowing {
+ .rowing, .drone {
     max-width: 400px;
     position: relative;
+    left: 6rem;
     
 }
 
 
 .adventuring {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-content: space-evenly;
-    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-around;
     position: relative;
     bottom: 15rem;
 }
@@ -436,14 +467,15 @@ h2 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    padding: 10px;
+    padding: 12px;
+    margin: 2rem;
     background-color: var(--accent1-color);
     height: 120px;
 }
 
 .grid-pic{
     max-height: 100px;
-    max-width: 150px;
+    max-width: fit-content;
     position: relative;
 }
 
@@ -494,12 +526,22 @@ footer {
 
 .subtitle {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-columns: 1fr 220px 1fr ;
     justify-content: space-around;
+    background-color: var(--accent1-color);
     position: relative;
     left: 1rem;
-    bottom: 3rem;
-    padding: .5rem;
+    bottom: 2rem;
+    padding: .62rem;
+    width: 90%;
+}
+
+.cap {
+    display: grid;
+    grid-template-columns: 1fr 1fr 200px;
+    position: relative;
+    left: 2rem;
+    background-color: var(--accent1-color);
 }
 
 
