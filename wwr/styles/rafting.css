@@ -480,6 +480,8 @@ h2 {
     position: relative;
     bottom: 1.5rem;
     right: 1rem;
+    background-color: var(--accent1-color);
+    padding: .2rem;
 }
 
 
