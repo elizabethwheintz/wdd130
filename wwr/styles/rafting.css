@@ -360,9 +360,7 @@ option {
 
 
 
-.boxer {
-    height: 30rem
-}
+
 
 .form-item {
     display: grid;
@@ -375,19 +373,16 @@ option {
     align-items: center;
     background-color:var(--primary-color) ;
     display: grid;
-    grid-template-columns: 100px 100px 100px 100px ;
+    grid-template-columns: 1fr 50px;
     justify-content: space-evenly;
     
 
 }
 
 .home-bar {
-  
+  width: 100%;
   display: flex;
   justify-content: flex-end; /* Pushes content to the right */
-  position: relative;
-  justify-content: space-evenly;
-  left: 300px;
   height: 90px;
   color: white;
 }
@@ -504,23 +499,20 @@ footer {
     
 }
 
-.flex-box {
-    display: flex;
-    flex-direction:row;
-    align-items:center ;
-    
-    
-}
+
 
 .flex-item {
     justify-content: right;
     
 }
 
+
 .flex-item0 {
     display: block;
     padding: 1px;
-    margin: 10px;
+    margin: 0;
+    position: relative;
+    top: 2.5rem;
     
 }
 
